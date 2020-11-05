@@ -1,0 +1,27 @@
+{
+  "name": "promise-thread",
+  "version": "0.0.1",
+  "description": "Promise.all in thread",
+  "main": "lib/index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watilde/promise-thread.git"
+  },
+  "keywords": [
+    "cluster"
+  ],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/promise-thread/issues"
+  },
+  "homepage": "https://github.com/watilde/promise-thread#readme",
+  "devDependencies": {
+    "standard": "^11.0.0",
+    "tap": "^11.1.1"
+  }
+}
